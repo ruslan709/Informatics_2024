@@ -26,7 +26,7 @@ func (t *Table) CalculateArea() float64 {
 	return t.length * t.width
 }
 
-func WorkWithTable() {
+func RunLab6() {
 	myTable := Table{}
 	myTable.SetSize(1.28, 2.34, 0.76)
 	width, length, height := myTable.GetSize()
